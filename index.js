@@ -16,11 +16,11 @@ var greetSpecialGuest = "Hello, " + specialGuest + "!";
 
 var topic = "space";
 //Defines the global variable 'topic'
-//Assigns 'topic' the string 'space'
+      //Assigns 'topic' the string 'space'
 
 var conversation = `Let's talk about ${topic}.`;
 //Defines the global variable 'conversation'
-//Assigns 'conversation' the string 'Let's talk about ${topic}.'
-//The interpolation '${topic}' references the 'topic' variable
-//Because the phrase is wrapped in back ticks, the interpolation will return the string 'space'
-//The final result is the string 'Let's talk about space.'
+      //Assigns 'conversation' the string 'Let's talk about ${topic}.'
+            //The interpolation '${topic}' references the 'topic' variable
+            //Because the phrase is wrapped in back ticks, the interpolation will return the string 'space'
+      //The final result is the string 'Let's talk about space.'
